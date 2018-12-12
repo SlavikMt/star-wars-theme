@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>star wars project</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <audio id="sound-jedi">
+	<source src="audio/lightsaber_02.mp3">
+</audio>
+    <audio id="sound-dark">
+	<source src="audio/Darth Vader.mp3">
+</audio>
+
+    <div class="wrapper">
+
+        <div class="logo sw">
+            star wars
+        </div>
+
+        <div class="title">
+            choose your side
+        </div>
+
+        <form>
+            <div class="sides">
+
+                <input type="radio" name="side" id="light-side">
+                <label for="light-side" class="light">
+				<img class="light-side-logo" src="images/Alliance_logo.png" alt="alliance logo image">
+			</label>
+
+
+                <input type="radio" name="side" id="dark-side">
+                <label for="dark-side" class="dark">
+				<img class="dark-side-logo" src="images/empire_logo.png" alt="empire logo image">
+			</label>
+
+
+            </div>
+
+            <div class="register">
+
+                <div class="social">
+                    <div class="social-title mb">
+                        find us in social networks:
+                    </div>
+
+                    <div class="social-networks">
+                        <a class="network fb" href="#"></a>
+                        <a class="network twt" href="#"></a>
+                        <a class="network inst" href="#"></a>
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <div class="input">
+                        <div class="input-title mb">
+                            enter your email:
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-button">
+                    <button>
+	     	           Fight now!
+	                </button>
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

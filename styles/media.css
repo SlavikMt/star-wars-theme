@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 15vw;
+    margin: 20px 0;
+  }
+  .title {
+    font-size: 9vw;
+    margin: 0;
+  }
+  .sides {
+    margin: 50px 0;
+  }
+  .sides label {
+    max-width: 280px;
+    margin: 0 15px;
+  }
+  .register {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .register > div {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .register .social {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .register > div {
+    max-width: 450px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
